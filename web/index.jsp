@@ -3,7 +3,7 @@
 <head>	
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>registration_demo</title>
-	<!-- <%@ include file="inc_ui_source.jsp" %> -->	
+	<%@ include file="inc_ui_source.jsp" %>
 </head>
 <body>
 
