@@ -83,7 +83,7 @@
 			<div class="select">
 				<div class="selected" valid="false" tabindex="16"><span init="[ please select ]">[ please select ]</span><div class="btn"></div></div>
 				<div class="options">
-					<jsp:include page="geo/inc_country.jsp"></jsp:include>					
+					<%@ include file="geo/inc_country.jsp" %>
 				</div>															
 			</div>					
 		</div>
