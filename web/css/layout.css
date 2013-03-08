@@ -1,0 +1,38 @@
+h1, p, a, li { color:#CCCCCC; font-family: Verdana, sans-serif; }
+p, a, li { font-size:12px; font-weight:bold; }
+ul{ border:0px; padding:0px 0px 0px 20px; margin:0px; }
+li{ border:0px; padding:0px; margin:0px; }
+body { width:100%; height:auto; border:0px; margin:0px; padding:0px; /* overflow:hidden; */ }
+
+.debug03 { border:1px solid #00cc00 !important; }
+
+.clear { clear:both;  }
+
+.container { position:relative; float:left; width:100%; height:auto; border:0px; padding:0px; margin:0px; text-align:center; color:#fff; }.error_label { color:#ff0000 !important; }
+.error_input { background:#ff0000 !important; border:1px dashed #663333 !important; }
+.error_select { background:#ff0000 !important; border:1px dashed #663333 !important; }
+.error_msg { background:#ff0000 !important; }
+
+.r_form { position:relative; float:left; min-width:728px; width:728px; height:auto; background:#000; border:0px; padding:15px; margin:5px 0px 5px 0px; border-radius:10px; -moz-border-radius:10px; }
+.r_form .r_row { position:relative; float:left; width:auto; height:25px; border:0px; padding:0px; margin:10px 0px 0px 0px; }
+.r_form .r_row .label { position:relative; float:left; width:130px; height:25px; border:0px; padding:0px; margin:0px 15px 0px 0px; font:normal 12px/25px Verdana; text-align:right; }
+.r_form .input { position:relative; float:left; width:188px; height:25px; border:0px; padding:0px; margin:0px; }
+.r_form .input input { width:171px; height:21px; background:url(../imgs/bg_form.png) repeat-x; color:#fff; border:1px solid #666; padding:2px 8px 2px 8px; font:normal 12px/25px Verdana; }
+.r_form .r_row .input input.mobile_area { width:26px; height:21px; padding:2px 5px 2px 5px; }
+.r_form .r_row .input input.mobile_pre { width:26px; height:21px; padding:2px 5px 2px 5px; }
+.r_form .r_row .input input.mobile_post { width:36px; height:21px; padding:2px 5px 2px 5px; }  
+.r_form .r_row .select { position:relative; float:left; width:186px; height:21px; background:url(../imgs/bg_form.png) repeat-x; color:#fff; border:1px solid #666; padding:0px 0px 4px 0px; margin:0px; font:normal 12px/25px Verdana; cursor:pointer; }
+.r_form .r_row .select span { position:relative; float:left; width:154px; text-align:left; text-indent:8px; padding:0px; margin:0px; }
+.r_form .r_row .select .btn { position:relative; float:right; width:32px; height:25px; background:url(../imgs/btn_dropdown.png) no-repeat 5px 5px; border:0px; padding:0px; margin:0px; }
+.r_form .r_row .select .options { display:none; position:absolute; left:0px; top:30px; z-index:4; width:100%; height:auto; max-height:150px; background:#000; border:1px solid #fff; cursor:pointer; overflow:-moz-scrollbars-horizontal; overflow-x:hidden; overflow-y:auto; font:normal 11px/17px Verdana; text-align:left; text-indent:10px; }
+.r_form .r_row .select .options .option { position:relative; float:left; width:100%; height:17px; background:#000; color:#FFFFFF; border:0px; padding:4px 0px 4px 0px; margin:0px; overflow:hidden; } 
+.r_form .r_row .select .options .hover { position:relative; float:left; background:#666; color:#FFF; }
+.r_form .r_row .select .options .on { position:relative; float:left; background:#666; color:#FFF; }
+.r_form .r_row .response { position:relative; float:left; width:130px; height:25px; background:#0000FF; border:0px; padding:0px; margin:0px 15px 0px 0px; font:normal 12px/25px Verdana; }
+.r_form .hr { position:relative; float:left; width:100%; height:auto; border:0px; padding:0px; margin:0px 0px 5px 0px; text-align:left; }
+.r_form .hr .r_title { position:relative; float:left; width:100%; height:auto; border-bottom:1px solid #666; padding:0px 0px 4px 0px; margin:0px 0px 4px 0px; text-align:left; }
+.r_form .hr .r_title span { font:normal 12px/22px Verdana; padding:0px 0px 0px 10px; color:#0ac7f5; }
+.r_form .clear { margin:30px 0px 0px 0px !important; }
+.r_form .r_row_c textarea { position:relative; width:85%; height:140px; background:#666; border:0px; padding:5px; margin:5px 0px 0px 0px; resize: none; color:#fff; }
+.r_form .r_row_c { position:relative; float:left; width:100%; height:auto; border:0px; padding:0px; margin:5px auto 5px auto; }
+.r_form .r_row_c input.submit { width:80px; height:30px; background:transparent; border:1px solid #fff; padding:0px; margin:5px 0px 0px 10px; font-weight:bold; color:#fff; cursor:pointer; outline:none; } 
